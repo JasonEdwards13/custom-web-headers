@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KnowledgeKube Domain Selector</title>
+    <script src="ui.js"></script>
+</head>
+
+<body>
+    <div style="padding: 10px; width: 400px;">
+        <h3>KnowledgeKube Domain Selector</h3>
+        <!-- Enable checkbox. If this checkbox is checked, then only headers will be added/modified. -->
+        <input type="checkbox" id="enable" name="enable" value="enable" checked>Override X-Forwarded-Host
+
+        <!-- Save button which will save value of enable checkbox & header JSON. -->
+        <button id="save" type="button" style="float: right;">Apply</button>
+
+        <!-- Input text area for JSON.  -->
+        <!-- <h4>Enter headers in JSON format</h4>
+        <input id="domainUrl" name="domainUrl" type="text" style="width: 330px;"> -->
+
+        <!-- ################### -->
+        <!-- ##  Development  ## -->
+        <!-- ################### -->
+        <p style="margin-bottom: 0px; font-weight: 600;">Development</p>
+        <input type="radio" name="domainUrl" id="ms200122" value="ms200122.knowledgekube.co.uk"> <label for="ms200122">ms200122.knowledgekube.co.uk</label><br>
+        <input type="radio" name="domainUrl" id="tonkin220708" value="tonkin220708.knowledgekube.co.uk"> <label for="tonkin220708">tonkin220708.knowledgekube.co.uk</label><br>
+        <!-- <input type="radio" name="domainUrl" id="salesdesk" value="salesdeskprobrandcouk"> <label for="salesdesk">salesdeskprobrandcouk</label><br> -->
+
+        <!-- ########## -->
+        <!-- ##  UK  ## -->
+        <!-- ########## -->
+        <p style="margin-bottom: 0px; font-weight: 600;">UK</p>
+        <input type="radio" name="domainUrl" id="knowledgekube" value="www.knowledgekube.co.uk"> <label for="knowledgekube">www.knowledgekube.co.uk</label><br>
+        <input type="radio" name="domainUrl" id="itportal" value="itportal.onknowledgebus.co.uk"> <label for="itportal">itportal.onknowledgebus.co.uk</label><br>
+        <input type="radio" name="domainUrl" id="stockinventorymanagement" value="stockinventorymanagement.onknowledgekube.net"> <label for="stockinventorymanagement">stockinventorymanagement.onknowledgekube.net</label><br>
+        <input type="radio" name="domainUrl" id="knowledgebusv3" value="knowledgebusv3.onknowledgekube.net"> <label for="knowledgebusv3">knowledgebusv3.onknowledgekube.net</label><br>
+
+        <!-- ########## -->
+        <!-- ##  EU  ## -->
+        <!-- ########## -->
+        <p style="margin-bottom: 0px; font-weight: 600;">EU</p>
+        <input type="radio" name="domainUrl" id="usertemplates2018" value="usertemplates2018.onknowledgekubesandbox.co.uk"> <label for="usertemplates2018">usertemplates2018.onknowledgekubesandbox.co.uk</label><br>
+        <input type="radio" name="domainUrl" id="SoftwareONE-CPQ-Development" value="SoftwareONE-CPQ-Development.onknowledgekube.net"> <label for="SoftwareONE-CPQ-Development">SoftwareONE-CPQ-Development.onknowledgekube.net</label><br>
+        <input type="radio" name="domainUrl" id="SoftwareONE-CPQ-UAT" value="SoftwareONE-CPQ-UAT.onknowledgekube.net"> <label for="SoftwareONE-CPQ-UAT">SoftwareONE-CPQ-UAT.onknowledgekube.net</label><br>
+        <input type="radio" name="domainUrl" id="SoftwareONE-CPQ-UAT-staging" value="SoftwareONE-CPQ-UAT-staging.onknowledgekube.net"> <label for="SoftwareONE-CPQ-UAT-staging">SoftwareONE-CPQ-UAT-staging.onknowledgekube.net</label><br>
+        <input type="radio" name="domainUrl" id="deancorkhill" value="deancorkhill.onknowledgekubesandbox.co.uk"> <label for="deancorkhill">deancorkhill.onknowledgekubesandbox.co.uk</label><br>
+        <input type="radio" name="domainUrl" id="ArkPhase3" value="ArkPhase3.onknowledgekube.net"> <label for="ArkPhase3">ArkPhase3.onknowledgekube.net</label><br>
+        <input type="radio" name="domainUrl" id="kinly" value="kinly-staging.onknowledgekube.net"> <label for="kinly">kinly-staging.onknowledgekube.net</label><br>
+
+        <!-- ################ -->
+        <!-- ##  Probrand  ## -->
+        <!-- ################ -->
+        <p style="margin-bottom: 0px; font-weight: 600;">Probrand</p>
+        <input type="radio" name="domainUrl" id="marketplace" value="marketplace.probrand.co.uk"> <label for="marketplace">marketplace.probrand.co.uk</label><br>
+        <input type="radio" name="domainUrl" id="marketplaceStaging" value="marketplace-staging-pfdtest.onprogora.co.uk"> <label for="marketplaceStaging">marketplace-staging-pfdtest.onprogora.co.uk</label><br>
+        <input type="radio" name="domainUrl" id="salesdesk" value="salesdesk.probrand.co.uk"> <label for="salesdesk">salesdesk.probrand.co.uk</label><br>
+        <input type="radio" name="domainUrl" id="partnerportal" value="partnerportal-pfdtest.onprogora.co.uk"> <label for="partnerportal">partnerportal-pfdtest.onprogora.co.uk</label><br>
+
+        <!-- ########### -->
+        <!-- ##  CCS  ## -->
+        <!-- ########### -->
+        <p style="margin-bottom: 0px; font-weight: 600;">CCS</p>
+        <input type="radio" name="domainUrl" id="purchasingplatform" value="purchasingplatform.crowncommercial.gov.uk"> <label for="purchasingplatform">purchasingplatform.crowncommercial.gov.uk</label><br>
+        <input type="radio" name="domainUrl" id="ccsmarketplaceadmin" value="ccsmarketplaceadmin.onknowledgekube.net"> <label for="ccsmarketplaceadmin">ccsmarketplaceadmin.onknowledgekube.net</label><br>
+    </div>
+</body>
+
+</html>
